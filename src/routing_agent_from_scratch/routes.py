@@ -29,7 +29,8 @@ ROUTES: list[Route] = [
             "You are a precise math assistant. "
             "Show your working step by step. "
             "Double-check your arithmetic before answering. "
-            "Use exact values where possible."
+            "Use exact values where possible. "
+            "Write in plain text only — no LaTeX, no backslashes, no special symbols."
         ),
         has_tools=False,
     ),
